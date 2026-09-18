@@ -46,6 +46,25 @@ def main():
     # =============================================
     # Your code for part 1 under this line and before the print statements
 
+x=27
+y=1
+a=1.5
+b=7
+c=-1
+
+numer=(3*x)-(9*y)
+denom=2*a
+hold=(b-c)
+denom*=hold
+result1=numer/denom
+
+print("Part 1: x =",x)
+print("Part 1: y =",y)
+print("Part 1: a =",a)
+print("Part 1: b =",b)
+print("Part 1: c =",c)
+print("Part 1: result =",result1)
+
     # End of Part 1 ----------------------
 
 
