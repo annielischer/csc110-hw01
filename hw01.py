@@ -46,28 +46,28 @@ def main():
     # =============================================
     # Your code for part 1 under this line and before the print statements
 
-#setting up the variables
-x=27
-y=1
-a=1.5
-b=7
-c=-1
+    #setting up the variables
+    x=27
+    y=1
+    a=1.5
+    b=7
+    c=-1
 
-#spliting the math into pieces to avoid issues with float
-#numer short for numerator and denom short for denominator
-numer=(3*x)-(9*y)
-denom=2*a
-hold=(b-c)
-denom*=hold
-result1=numer/denom
+    #spliting the math into pieces to avoid issues with float
+    #numer short for numerator and denom short for denominator
+    numer=(3*x)-(9*y)
+    denom=2*a
+    hold=(b-c)
+    denom*=hold
+    result1=numer/denom
 
-#final printing
-print("Part 1: x =",x)
-print("Part 1: y =",y)
-print("Part 1: a =",a)
-print("Part 1: b =",b)
-print("Part 1: c =",c)
-print("Part 1: result =",result1)
+    #final printing
+    print("Part 1: x =",x)
+    print("Part 1: y =",y)
+    print("Part 1: a =",a)
+    print("Part 1: b =",b)
+    print("Part 1: c =",c)
+    print("Part 1: result =",result1)
 
     # End of Part 1 ----------------------
 
@@ -76,20 +76,20 @@ print("Part 1: result =",result1)
     # =============================================
     # Your code for part 2 under this line and before the print statements
 
-#setting up variables
-x=5
-y=-3
+    #setting up variables
+    x=5
+    y=-3
 
-#the math
-#mod stands for modified
-modx=(x**2)
-mody=(y**4)
-result2=modx*mody
+    #the math
+    #mod stands for modified
+    modx=(x**2)
+    mody=(y**4)
+    result2=modx*mody
 
-#final printing
-print("Part 2: x =",x)
-print("Part 2: y =",y)
-print("Part 2: result =",result2)
+    #final printing
+    print("Part 2: x =",x)
+    print("Part 2: y =",y)
+    print("Part 2: result =",result2)
 
     # End of Part 2 ----------------------
 
@@ -98,17 +98,17 @@ print("Part 2: result =",result2)
     # =============================================
     # Your code for part 3 under this line and before the print statements
 
-#setting up variables
-a=100
-b=13
+    #setting up variables
+    a=100
+    b=13
 
-#quick maths
-result3=(a//b)
+    #quick maths
+    result3=(a//b)
 
-#final printing
-print("Part 3: a =",a)
-print("Part 3: b =",b)
-print("Part 3: result =",result3)
+    #final printing
+    print("Part 3: a =",a)
+    print("Part 3: b =",b)
+    print("Part 3: result =",result3)
 
     # End of Part 3 ----------------------
 
@@ -117,11 +117,11 @@ print("Part 3: result =",result3)
     # =============================================
     # Your code for part 4 under this line and before the print statements
 
-#even quicker maths
-result4=(a%b)
+    #even quicker maths
+    result4=(a%b)
 
-#the final final printing
-print("Part 4: result =",result4)
+    #the final final printing
+    print("Part 4: result =",result4)
 
     # End of Part 4 ----------------------
 
